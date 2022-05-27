@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+	<title> Desencriptador </title>
+
+</head>
+
+<body>
+
+	<header>
+
+		<img class="logo-a" src="/imagems/a-logo.png" alt="logo da Alura">
+
+		<h1 class="titulo-principal">Criptografia</h1>
+
+	</header>
+
+	<main class="main">
+
+		<section>
+	
+			<textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto:"></textarea>
+		
+			<div>
+
+				<h6 class="imformacao">Apenas letras maiusculas e minusculas</h6>
+			
+			</div>
+	
+			<div class="botoes">
+
+				<button class="encriptar" onclick="btnEncriptar()">Criptografar
+				</button>
+	
+				<button class="desencriptar" onclick="btnDesencriptar()">Descriptografar
+				</button>
+
+			</div>
+
+		</section>
+		
+		<section>
+	
+			<textarea id="mensagem" class="mensagem" type="text" cols="40" rows="8" placeholder="Nemguma mensagem"></textarea>
+
+			<button id="btn-copy">Copiar</button>
+
+		</section>
+	
+	</main>
+
+	<footer>
+
+	<p class="creator"> Creator: Anderson Alvarez </p>
+
+	</footer>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
